@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(void){
+
+  int far=0;
+  int cel=0;
+          printf("select the tempeture you want converted from farenheight to celsius\n");
+          scanf("%6d",&far);
+          cel=(far-32)/1.8;
+          printf("The initial tempeture was %d and it is now %d in celsius\n",far,cel);
+          far=(cel*1.8)+32;
+           printf("The conversion back now is %d and it is now %d in celsius\n",far,cel);
+   return 0;
+}
+
+
+
+
+
+
+
+
+
+

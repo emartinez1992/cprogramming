@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main(void){
+  int c=0;
+  printf("please enter a phase to count space, tabs and newlines\n");
+  // scanf("%ld",&phase);
+  int p;
+  while((p=getchar())!=EOF){
+    if(p== ' '){
+      c++;
+    }
+    if(p=='\t'){
+      c++;
+    }
+    if(p=='\n'){
+      c++;
+    }
+}
+    printf("we have found %d amount of spaces tabs and newlines",c);
+
+
+  return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
